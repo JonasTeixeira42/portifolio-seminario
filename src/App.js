@@ -1,12 +1,11 @@
 import './styles/global.css';
 
-import ServiceCard from './components/ServiceCard'
+import SkillCard from './components/SkillCard'
 
 function App() {
   return (
-    <ServiceCard 
+    <SkillCard 
       title="New Project" 
-      description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ullam et possimus cum fugit voluptatum."
     />
   );
 }
