@@ -1,10 +1,13 @@
 import './styles/global.css';
 
-import Footer from './components/Footer'
+import ProjectCard from './components/ProjectCard'
 
 function App() {
   return (
-    <Footer />
+    <ProjectCard 
+      title="New Project" 
+      description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ullam et possimus cum fugit voluptatum."
+    />
   );
 }
 
