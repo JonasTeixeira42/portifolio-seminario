@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Heading from '../../components/Heading'
 import Link from '../../components/Link'
+import Heading from '../../components/Heading'
 
 import './styles.css'
 

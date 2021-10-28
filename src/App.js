@@ -1,12 +1,10 @@
 import './styles/global.css';
 
-import SkillCard from './components/SkillCard'
+import Introduction from './components/Introduction'
 
 function App() {
   return (
-    <SkillCard 
-      title="New Project" 
-    />
+    <Introduction />
   );
 }
 
