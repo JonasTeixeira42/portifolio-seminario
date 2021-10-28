@@ -1,10 +1,10 @@
 import './styles/global.css';
 
-import Heading from './components/Heading'
+import Link from './components/Link'
 
 function App() {
   return (
-    <Heading size="normal" lineBottom={true}>Titulo</Heading>
+    <Link title="Link" link={"#"} />
   );
 }
 

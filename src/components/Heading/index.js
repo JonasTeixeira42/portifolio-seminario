@@ -3,10 +3,10 @@ import cx from 'classnames'
 
 import './styles.css'
 
-const Heading = (props) => (
-  <div className={cx({ 'heading--bottom': props.lineBottom })}>
-    <h2 id={props.id} className={cx({ [props.size]: true, 'line--bottom': props.lineBottom })}>
-      {props.children}
+const Heading = ({ lineBottom = false, children, size = 'normal', id = '' }) => (
+  <div className={cx({ 'heading--bottom': lineBottom })}>
+    <h2 id={id} className={cx({ [size]: true, 'line--bottom': lineBottom })}>
+      {children}
     </h2>
   </div>
 )

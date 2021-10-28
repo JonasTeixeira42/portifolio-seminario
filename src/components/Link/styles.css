@@ -1,0 +1,17 @@
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #eee;
+  padding: 10px 60px;
+  background: linear-gradient(to left, rgba(255, 10, 84, 0.7) 0%, transparent 100%);
+  border: 1px solid #ff0a54;
+  border-radius: 4px;
+
+  transition: all cubic-bezier(0.5, 0, 0, 1) 0.3s;
+}
+
+.link:hover {
+  padding: 8px 90px;
+  background: linear-gradient(to left, rgba(255, 10, 84) 0%, transparent 100%);
+}
