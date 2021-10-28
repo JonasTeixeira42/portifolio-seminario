@@ -1,10 +1,10 @@
 import './styles/global.css';
 
-import Link from './components/Link'
+import Menu from './components/Menu'
 
 function App() {
   return (
-    <Link title="Link" link={"#"} />
+    <Menu />
   );
 }
 
