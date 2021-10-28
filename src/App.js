@@ -1,10 +1,10 @@
 import './styles/global.css';
 
-import Introduction from './components/Introduction'
+import Home from './pages/Home'
 
 function App() {
   return (
-    <Introduction />
+    <Home />
   );
 }
 
