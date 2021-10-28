@@ -1,0 +1,18 @@
+.small {
+  font-size: 20px;
+}
+
+.normal {
+  font-size: 28px;
+}
+
+.heading--bottom {
+  text-align: center;
+  border-bottom: 1px solid #33333c;
+}
+
+.line--bottom {
+  padding-bottom: 20px;
+  display: inline-block;
+  border-bottom: 1px solid #ff0a54;
+}
