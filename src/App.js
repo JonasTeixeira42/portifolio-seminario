@@ -1,10 +1,10 @@
 import './styles/global.css';
 
-import Menu from './components/Menu'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <Menu />
+    <Footer />
   );
 }
 

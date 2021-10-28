@@ -1,0 +1,11 @@
+.footer {
+  text-align: center;
+}
+
+.footer__link {
+  margin-top: 50px;
+}
+
+.footer__link a {
+  margin-right: 20px;
+}
