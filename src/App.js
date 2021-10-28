@@ -1,10 +1,10 @@
 import './styles/global.css';
 
-import ProjectCard from './components/ProjectCard'
+import ServiceCard from './components/ServiceCard'
 
 function App() {
   return (
-    <ProjectCard 
+    <ServiceCard 
       title="New Project" 
       description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ullam et possimus cum fugit voluptatum."
     />

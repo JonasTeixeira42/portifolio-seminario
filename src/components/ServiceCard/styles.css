@@ -1,0 +1,30 @@
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px 30px 60px;
+  background-color: #17161D;
+  border-radius: 4px;
+  border: 2px solid #17161D;
+
+  transition: all 0.2s;
+}
+
+.service:hover {
+  border-color: #ff0a54;
+  transform: translateY(-5px);
+}
+
+.service__title {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.service__description {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #c9c9c9;
+}
