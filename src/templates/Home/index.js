@@ -8,13 +8,9 @@ import ProjectCard from '../../components/ProjectCard'
 import ServiceCard from '../../components/ServiceCard'
 import Introduction from '../../components/Introduction'
 
-import skills from './skills'
-import projects from './projects'
-import services from './services'
-
 import './styles.css'
 
-const Home = () => {
+const Home = ({ skills, projects, services }) => {
   return (
     <main className="home">
       <header className="light-bg">

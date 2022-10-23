@@ -1,11 +1,9 @@
-import './styles/global.css';
+import './styles/global.css'
 
-import Home from './pages/Home'
+import Portfolio from './pages/Portfolio'
 
 function App() {
-  return (
-    <Home />
-  );
+  return <Portfolio />
 }
 
-export default App;
+export default App
