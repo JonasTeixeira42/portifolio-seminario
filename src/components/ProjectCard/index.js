@@ -1,16 +1,14 @@
-import React from 'react'
+import React from "react";
 
-import Heading from '../Heading'
+import "./styles.css";
 
-import './styles.css'
-
-const ProjectCard = ({ title = '', description = '', link = '#' }) => (
+const ProjectCard = ({ title, description, link }) => (
   <a href={link} target="_blank" rel="noreferrer">
     <article className="card__content">
-      <Heading size="small">{title}</Heading>
+      <h3 className="card__title">{title}</h3>
       <p className="card__description">{description}</p>
     </article>
   </a>
-)
+);
 
-export default ProjectCard
+export default ProjectCard;

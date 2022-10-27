@@ -6,13 +6,12 @@
   font-size: 28px;
 }
 
-.heading--bottom {
+.center {
   text-align: center;
-  border-bottom: 1px solid #33333c;
 }
 
-.line--bottom {
-  padding-bottom: 20px;
+.border {
+  padding-bottom: 15px;
   display: inline-block;
-  border-bottom: 1px solid #ff0a54;
+  border-bottom: 5px solid #ff0a54;
 }

@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
-import './styles.css'
+import "./styles.css";
 
-const SkillCard = ({ image, title = '' }) => (
+const SkillCard = ({ image, title = "" }) => (
   <article className="skill">
-    <div className="skill__image background">{!!image && image}</div>
-    <h2 className="skill__title background">{title}</h2>
+    <div className="skill__image bg">{!!image && image}</div>
+    <h3 className="skill__title bg">{title}</h3>
   </article>
-)
+);
 
-export default SkillCard
+export default SkillCard;

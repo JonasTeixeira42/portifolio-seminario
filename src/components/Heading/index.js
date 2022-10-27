@@ -1,14 +1,14 @@
-import React from 'react'
-import cx from 'classnames'
+import React from "react";
+import cx from "classnames";
 
-import './styles.css'
+import "./styles.css";
 
-const Heading = ({ lineBottom = false, children, size = 'normal', id = '' }) => (
-  <div className={cx({ 'heading--bottom': lineBottom })}>
-    <h2 id={id} className={cx({ [size]: true, 'line--bottom': lineBottom })}>
+const Heading = ({ lineBottom = false, children, id = "" }) => (
+  <div className={cx({ center: lineBottom })}>
+    <h2 id={id} className={cx({ border: lineBottom })}>
       {children}
     </h2>
   </div>
-)
+);
 
-export default Heading
+export default Heading;

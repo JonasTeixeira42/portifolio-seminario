@@ -2,10 +2,14 @@
   text-align: center;
 }
 
-.footer__link {
+.links__container {
+  display: grid;
+  row-gap: 20px;
+  column-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   margin-top: 50px;
 }
 
-.footer__link a {
-  margin-right: 20px;
+.links__container .link {
+  margin: 15px 20px 15px 0;
 }
