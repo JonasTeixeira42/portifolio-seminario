@@ -27,10 +27,8 @@ function App() {
       </section>
 
       <section className="section light-bg">
-        <Heading id="projects" lineBottom>
-          Projects
-        </Heading>
-        <div className="container projects__container">
+        <Heading id="projects">Projects</Heading>
+        <div className="container projects-container">
           <ProjectCard
             title="New Project"
             description="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo"
@@ -47,7 +45,7 @@ function App() {
       </section>
 
       {/* <section className="section">
-        <Heading id="services" lineBottom>
+        <Heading id="services">
           Services
         </Heading>
         <div className="container services__container">
@@ -67,24 +65,23 @@ function App() {
       </section> */}
 
       <section className="section light-bg">
-        <Heading id="skills" lineBottom>
-          Skills
-        </Heading>
-        <div className="container skills__container">
-          <SkillCard
-            title="React"
-            image={<SiReact size={70} color="#ff0a54" />}
-          />
-          <SkillCard title="HTML" image={<HTML size={70} color="#ff0a54" />} />
-          <SkillCard title="CSS" image={<CSS size={70} color="#ff0a54" />} />
-          <SkillCard
-            title="Javascript"
-            image={<JS size={70} color="#ff0a54" />}
-          />
-          <SkillCard
-            title="C Language"
-            image={<C size={70} color="#ff0a54" />}
-          />
+        <Heading id="skills">Skills</Heading>
+        <div className="container skills-container">
+          <SkillCard title="React">
+            <SiReact size={70} color="#ff0a54" />
+          </SkillCard>
+          <SkillCard title="React">
+            <HTML size={70} color="#ff0a54" />
+          </SkillCard>
+          <SkillCard title="React">
+            <CSS size={70} color="#ff0a54" />
+          </SkillCard>
+          <SkillCard title="React">
+            <JS size={70} color="#ff0a54" />
+          </SkillCard>
+          <SkillCard title="React">
+            <C size={70} color="#ff0a54" />
+          </SkillCard>
         </div>
       </section>
 

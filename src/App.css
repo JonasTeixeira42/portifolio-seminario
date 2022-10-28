@@ -2,7 +2,7 @@
   padding: 90px 20px 120px;
 }
 
-.projects__container {
+.projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   column-gap: 15px;
@@ -10,7 +10,7 @@
   padding-top: 70px;
 }
 
-.skills__container {
+.skills-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   column-gap: 30px;

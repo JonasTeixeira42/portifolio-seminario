@@ -10,9 +10,6 @@ const Menu = () => (
       <a className="menu-link" href="#projects">
         Projects
       </a>
-      <a className="menu-link" href="#services">
-        Services
-      </a>
       <a className="menu-link" href="#skills">
         Skills
       </a>
