@@ -4,8 +4,8 @@ import "./styles.css";
 
 const SkillCard = ({ image, title = "" }) => (
   <article className="skill">
-    <div className="skill__image bg">{!!image && image}</div>
-    <h3 className="skill__title bg">{title}</h3>
+    <div className="skill-image bg">{image}</div>
+    <h3 className="skill-title bg">{title}</h3>
   </article>
 );
 

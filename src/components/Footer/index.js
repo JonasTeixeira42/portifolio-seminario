@@ -9,7 +9,7 @@ const Footer = () => (
   <footer>
     <footer className="footer">
       <Heading>Reach me Out</Heading>
-      <div className="links__container">
+      <div className="link-container">
         <Link
           className="link"
           link="mailto:portifolio@teste.com"

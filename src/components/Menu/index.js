@@ -1,23 +1,23 @@
-import React from 'react'
-import Logo from '../Logo'
+import React from "react";
+import Logo from "../Logo";
 
-import './styles.css'
+import "./styles.css";
 
 const Menu = () => (
   <menu className="menu">
     <Logo />
     <nav>
-      <a className="menu__link" href="#projects">
+      <a className="menu-link" href="#projects">
         Projects
       </a>
-      <a className="menu__link" href="#services">
+      <a className="menu-link" href="#services">
         Services
       </a>
-      <a className="menu__link" href="#skills">
+      <a className="menu-link" href="#skills">
         Skills
       </a>
     </nav>
   </menu>
-)
+);
 
-export default Menu
+export default Menu;

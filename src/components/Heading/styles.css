@@ -1,16 +1,9 @@
-.small {
-  font-size: 20px;
-}
-
-.normal {
-  font-size: 28px;
-}
-
-.center {
+.heading-container {
   text-align: center;
 }
 
-.border {
+.heading {
+  font-size: 28px;
   padding-bottom: 15px;
   display: inline-block;
   border-bottom: 5px solid #ff0a54;

@@ -1,16 +1,15 @@
 import React from "react";
 
 import Link from "../../components/Link";
-import Heading from "../../components/Heading";
 
 import "./styles.css";
 
 const Introduction = () => (
   <section>
-    <Heading>
+    <h2>
       Hi, I'm Jonas <br /> I love to build amazing apps.
-    </Heading>
-    <div className="introduction__description">
+    </h2>
+    <div className="description">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sed
         cumque deserunt soluta accusantium recusandae?

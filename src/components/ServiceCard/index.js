@@ -5,8 +5,8 @@ import "./styles.css";
 const ServiceCard = ({ image, title, description }) => (
   <article className="service">
     {image}
-    <h2 className="service__title">{title}</h2>
-    <p className="service__description">{description}</p>
+    <h2 className="service-title">{title}</h2>
+    <p className="service-description">{description}</p>
   </article>
 );
 

@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.links__container {
+.link-container {
   display: grid;
   row-gap: 20px;
   column-gap: 15px;
@@ -10,6 +10,6 @@
   margin-top: 50px;
 }
 
-.links__container .link {
+.link {
   margin: 15px 20px 15px 0;
 }

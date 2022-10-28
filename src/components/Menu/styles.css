@@ -6,7 +6,7 @@
   padding: 20px 0;
 }
 
-.menu__link {
+.menu-link {
   font-size: 20px;
   font-weight: 500;
   margin-left: 24px;
@@ -15,6 +15,6 @@
   transition: color 0.3s;
 }
 
-.menu__link:hover {
+.menu-link:hover {
   color: #ff0a54;
 }

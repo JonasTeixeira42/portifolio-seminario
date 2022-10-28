@@ -1,4 +1,4 @@
-.card__content {
+.card-content {
   padding: 20px 25px 30px;
   background-color: #131219;
   border-radius: 4px;
@@ -7,16 +7,16 @@
   transition: all 0.2s;
 }
 
-.card__content:hover {
+.card-content:hover {
   border-color: #ff0a54;
   transform: translateY(-5px);
 }
 
-.card__title {
+.card-title {
   font-size: 20px;
 }
 
-.card__description {
+.card-description {
   margin-top: 15px;
   font-size: 16px;
   word-wrap: break-word;

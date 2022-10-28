@@ -1,11 +1,10 @@
 import React from "react";
-import cx from "classnames";
 
 import "./styles.css";
 
-const Heading = ({ lineBottom = false, children, id = "" }) => (
-  <div className={cx({ center: lineBottom })}>
-    <h2 id={id} className={cx({ border: lineBottom })}>
+const Heading = ({ children, id = "" }) => (
+  <div className="heading-container">
+    <h2 id={id} className="heading">
       {children}
     </h2>
   </div>
